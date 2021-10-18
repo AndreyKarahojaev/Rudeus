@@ -3,7 +3,7 @@
     <h1 class="text-3xl text-pink-500 font-bold"> {{ msg }} <span class="sity">{{ world.toUpperCase() }}</span></h1>
     <p>
       {{ description }} 
-    </p><span class="min-h-screen bg-gray-100"> УраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУраУра</span>
+    </p><span class="min-h-screen bg-gray-100"> УраУраУраУраУраУраУраУраУраУраУраУраУраУра</span>
   </div>
 </template>
 

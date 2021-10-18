@@ -27,8 +27,8 @@ export default {
 }
 </script>
 
-<style src="./tailwind.css" />
 
+<style>
 /* img {
     display: block;
   margin: 0 auto;
@@ -41,3 +41,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
+</style>
+
