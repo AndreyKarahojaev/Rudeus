@@ -1,11 +1,11 @@
 <template>
-<div class="remindme">
+<div>
   <img src="#" alt="icon">
   <h4>Remindme</h4>
   <p>Task deadlines and scheduling applications with various benefits and advantages</p>
 </div>
-<div class="profit">
-  <div class="sitemaps">
+<div>
+  <div>
     <h4>Sitemaps</h4>
     <ul>
       <li><a href="#">Home</a></li>
@@ -13,7 +13,7 @@
       <li><a href="#">About Us</a></li>
     </ul>
   </div>
-  <div class="advantages">
+  <div>
     <h4>Sitemaps</h4>
     <ul>
       <li><a href="#">Home</a></li>
@@ -22,7 +22,7 @@
     </ul>
   </div>
 </div>
-<div class="social-network">
+<div>
   <h4>Follow Us</h4>
   <ul>
     <li><a href="#"><img src="#" alt="social"></a></li>

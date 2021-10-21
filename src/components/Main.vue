@@ -1,9 +1,9 @@
 <template>
-  <section class="preview">
+  <section>
     <h1>Manage Schedule and Task Easy</h1>
     <p>Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
     <a href="#" class="btn-link">Download App</a>
-    <div class="advantages">
+    <div>
       <div>
         <img src="#" alt="icon">
         <h2>Set a better deadline tasks</h2>
@@ -21,7 +21,7 @@
       </div>
     </div>
   </section>
-  <section class="download">
+  <section>
     <div>
       <img src="#" alt="icon">
       <h3>Set up task and schedule with a best features</h3>
@@ -32,14 +32,14 @@
       <h3>Get the highest priority application notification</h3>
       <p>The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
     </div>
-    <div class="preloading">
+    <div>
       <h3>Download an app now and the various benefits you will get immediately</h3>
       <a href="#" class="btn-link">Download App</a>
       <a href="#" class="btn-link">About App</a>
     </div>
   </section>
-  <section class="comments">
-    <img src="#" alt="" class="no-mobile">
+  <section>
+    <img src="#" alt="">
     <h3>What do they think</h3>
     <div>
       <img src="#" alt="avatar">
@@ -47,8 +47,8 @@
       <span>Student at University</span>
       <p>“ Hi, it’s Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “</p>
     </div>
-    <a href="#" class="next"></a>
-    <a href="#" class="prev"></a>
+    <a href="#"></a>
+    <a href="#"></a>
   </section>
 </template>
 
