@@ -55,27 +55,11 @@
 <script>
 export default {
   name: 'Main',
-  props: {
-    msg: String,
-    world: String,
-    description: String
-  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
 
-h1 {
-  text-align: center;
-}
-p {
-  margin: 0 auto;
-}
 
 </style>
