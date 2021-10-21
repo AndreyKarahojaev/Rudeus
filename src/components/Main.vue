@@ -2,7 +2,7 @@
   <section>
     <h1>Manage Schedule and Task Easy</h1>
     <p>Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
-    <a href="#" class="btn-link">Download App</a>
+    <a href="#">Download App</a>
     <div>
       <div>
         <img src="#" alt="icon">
@@ -34,8 +34,8 @@
     </div>
     <div>
       <h3>Download an app now and the various benefits you will get immediately</h3>
-      <a href="#" class="btn-link">Download App</a>
-      <a href="#" class="btn-link">About App</a>
+      <a href="#">Download App</a>
+      <a href="#">About App</a>
     </div>
   </section>
   <section>

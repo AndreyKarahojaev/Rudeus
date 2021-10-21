@@ -1,27 +1,27 @@
 <template>
-  <header class="header">
-    <div class="content">
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="#" class="header-item__link">
+  <header>
+    <div>
+      <ul>
+        <li>
+          <a href="#">
           </a>
           </li>
-        <li class="header-item">
-          <a href="#" class="header-item__link">
+        <li>
+          <a href="#">
           </a>
           </li>
-        <li class="header-item">
-          <a href="#" class="header-item__link">
+        <li>
+          <a href="#">
           </a>
           </li>
-        <li class="header-item">
-          <a href="#" class="header-item__link">
+        <li>
+          <a href="#">
           </a>
           </li>
       </ul>
     </div>
-    <button class="header-button">
-      <a href="#" class="header-link__btn btn-link"></a>
+    <button>
+      <a href="#"></a>
     </button>
   </header>
 </template>

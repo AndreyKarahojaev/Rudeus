@@ -1,25 +1,9 @@
 <template>
-  <Wrapper 
-    msg="Добро пожаловать на" 
-    world="Тольятти"
-    :description="'Текст текст текс'"
-  />
-    <Header 
-    msg="Добро пожаловать на" 
-    world="Тольятти"
-    :description="'Текст текст текс'"
-  />
-    <Main 
-    msg="Добро пожаловать на" 
-    world="Тольятти"
-    :description="'Текст текст текс'"
-  />
-    <Footer 
-    msg="Добро пожаловать на" 
-    world="Тольятти"
-    :description="'Текст текст текс'"
-  />
-
+  <Wrapper>
+    <Header />
+    <Main />
+    <Footer />
+  </Wrapper>
 </template>
 
 <script>
