@@ -8,4 +8,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+  colors: {
+    transparent: 'transparent',
+    current: 'currentColor',
+    customBlue: {
+      light: '#2D76F9'
+    }
+    }
+  }
+
