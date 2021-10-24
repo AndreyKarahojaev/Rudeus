@@ -7,7 +7,7 @@
         </a>
         <ul class="flex items-center">
           <li class="pl-12">
-            <a href="#" class="bg-custom-blue-50 text-blue-800">Home</a>
+            <a href="#" class="text-blue-400">Home</a>
           </li>
           <li class="pl-12">
             <a href="#">Features</a>
@@ -17,8 +17,8 @@
           </li>
         </ul>
       </div>
-      <div class="flex items-center right-24 absolute">
-        <a href="#" class="flex items-center justify-between border-2 rounded-full py-2 px-6 border-light-blue-500 text-blue-400 border-blue-600">About App</a>
+      <div class="flex items-center">
+        <a href="#" class="flex items-center justify-between border-2 rounded-full py-2 px-6 text-blue-400 ">About App</a>
       </div>
     </div>
   </header>
