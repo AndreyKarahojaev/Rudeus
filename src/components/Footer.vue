@@ -1,5 +1,6 @@
 <template>
-<div>
+<footer >
+  <div class="">
   <img src="#" alt="icon">
   <h4>Remindme</h4>
   <p>Task deadlines and scheduling applications with various benefits and advantages</p>
@@ -30,6 +31,8 @@
     <li><a href="#"><img src="#" alt="social"></a></li>
   </ul>
 </div>
+</footer>
+
 </template>
 
 <script>

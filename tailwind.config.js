@@ -10,7 +10,15 @@ module.exports = {
         }
       },
     },
-    
+    screens: {
+      'sm': {'max': '440px'},
+
+        // => @media (max-width: 414px) { ... }
+
+      'md': {'max': '620px'},
+        // => @media (max-width: 618px) { ... }
+
+      },  
   },
   variants: {
     extend: {},

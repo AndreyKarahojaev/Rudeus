@@ -1,5 +1,5 @@
 <template>
-  <main class="flex pt-20">
+  <main class="flex pt-20 sm:pt-36">
     <section>
       <h1>Manage Schedule and Task Easy</h1>
       <p>Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
