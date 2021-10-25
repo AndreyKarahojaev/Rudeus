@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper max-w-screen-xl mx-auto relative">
     <slot />
   </div>
 </template>
