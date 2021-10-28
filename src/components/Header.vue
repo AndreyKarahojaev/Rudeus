@@ -1,8 +1,8 @@
 <template>
-  <header class="absolute top-7 w-full ">
-    <div class="flex justify-between">
-      <div class="flex items-center sm:justify-between w-full md:top-8">
-        <a href="#" class="flex items-center justify-between">
+  <header class="flex justify-between absolute top-7 h-10 w-full">
+    <div class="flex justify-between w-full">
+      <div class="flex items-center justify-between sm:w-full md:top-8">
+        <a href="#" class="flex items-center justify-around">
           <img src="../img/logo.svg" alt="" class="pl-5 pr-1 ">Remind<span class="text-blue-400">me</span>
         </a>
         <ul class="flex items-center sm:flex-col sm:pr-20 sm:hidden">
@@ -16,8 +16,8 @@
             <a href="#">About us</a>
           </li>
         </ul>
-        <button class="sm:border-2 sm:border-blue-400 sm:rounded-lg sm:relative sm:right-9 hidden">
-          <img src="../img/radix-icons_hamburger-menu.svg" alt="" class="p-2">
+        <button class="md:hidden lg:hidden sm:border-2 sm:border-blue-400 sm:rounded-lg sm:relative sm:right-9">
+          <img src="../img/radix-icons_hamburger-menu.svg" alt="" class="p-2 md:hidden lg:hidden">
         </button>
       </div>
       <div class="flex items-center relative right-16 sm:hidden md:right-1">

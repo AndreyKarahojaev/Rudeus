@@ -9,19 +9,26 @@ module.exports = {
           'dark': '#2D00F9'
         }
       },
+      spacing: {
+        '108': '118px',
+        '58' : '58px',
+        '300' : '300px'
+      } 
     },
     screens: {
-      'sm': {'max': '440px'},
-
+      'sm': {'min': '220px', 'max': '440px'},
         // => @media (max-width: 414px) { ... }
-
-      'md': {'max': '620px'},
+      'md': {'min': '441px', 'max': '637px'},
+        // => @media (max-width: 618px) { ... }
+      'lg': {'min': '638px'},
         // => @media (max-width: 618px) { ... }
 
-      },  
+      }, 
   },
   variants: {
     extend: {},
   },
   plugins: [],
 }
+
+
