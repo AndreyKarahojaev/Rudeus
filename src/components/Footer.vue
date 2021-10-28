@@ -6,7 +6,7 @@
     </a>
     <p class="max-w-sm text-left md:max-w-xs sm:w-300 sm:pl-5">Task deadlines and scheduling applications with various benefits and advantages</p>
   </div>
-   <!-- разделение -->
+
   <div class="flex-col md:w-108 list-disc sm:pb-6">
     <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Sitemaps</h4>
     <ul class="pl-5">
@@ -15,7 +15,7 @@
       <li class="list-disc py-1.5"><a href="#">About Us</a></li>
     </ul>
   </div>
-   <!-- разделение -->
+
   <div class="flex-col md:w-108 sm:pb-6">
     <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Advantages</h4>
     <ul class="pl-5">
@@ -24,7 +24,7 @@
       <li class="list-disc py-1.5"><a href="#">Get Notification</a></li>
     </ul>
   </div>
-   <!-- разделение -->
+
   <div class="flex-col sm:justify-start sm:pr-10">
     <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Follow Us</h4>
     <div class="flex flex-row items-center justify-around">
