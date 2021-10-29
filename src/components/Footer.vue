@@ -4,11 +4,11 @@
     <a href="#" class="flex items-center sm:pb-4 md:pb-12 pb-58 ">
       <img src="../img/logo.svg" alt="" class="pl-5 pr-1">Remind<span class="text-blue-400">me</span>
     </a>
-    <p class="max-w-sm text-left md:max-w-xs sm:w-300 sm:pl-5">Task deadlines and scheduling applications with various benefits and advantages</p>
+    <p class="max-w-sm text-left md:max-w-xs footer__block-indent--text sm:pl-5">Task deadlines and scheduling applications with various benefits and advantages</p>
   </div>
 
-  <div class="flex-col md:w-108 list-disc sm:pb-6">
-    <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Sitemaps</h4>
+  <div class="flex-col list-disc sm:pb-6 footer__block-indent">
+    <h4 class="text-left sm:pb-4 md:pb-12 block-indent__heading">Sitemaps</h4>
     <ul class="pl-5">
       <li class="list-disc py-1.5"><a href="#">Home</a></li>
       <li class="list-disc py-1.5"><a href="#">Features</a></li>
@@ -16,8 +16,8 @@
     </ul>
   </div>
 
-  <div class="flex-col md:w-108 sm:pb-6">
-    <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Advantages</h4>
+  <div class="flex-col sm:pb-6 footer__block-indent">
+    <h4 class="text-left sm:pb-4 md:pb-12 block-indent__heading">Advantages</h4>
     <ul class="pl-5">
       <li class="list-disc py-1.5"><a href="#">Set Task Better</a></li>
       <li class="list-disc py-1.5"><a href="#">Easy Manage</a></li>
@@ -26,7 +26,7 @@
   </div>
 
   <div class="flex-col sm:justify-start sm:pr-10">
-    <h4 class="text-left sm:pb-4 md:pb-12 pb-58">Follow Us</h4>
+    <h4 class="text-left sm:pb-4 md:pb-12 block-indent__heading">Follow Us</h4>
     <div class="flex flex-row items-center justify-around">
       <a href="#" class="pr-9"><img src="../img/facebook.svg" alt="social"></a>
       <a href="#" class="pr-9"><img src="../img/twitter.svg" alt="social"></a>
@@ -45,6 +45,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@media (min-width: 220px) and (max-width: 440px) { 
+  .footer__block-indent--text {
+  width: 300px;
+}
+ }
+
+ @media (min-width: 441px) and (max-width: 637px) { 
+  .footer__block-indent {
+  width: 118px;
+}
+ }
+
+.block-indent__heading {
+  padding-bottom: 58px;
+}
+
 
 
 </style>

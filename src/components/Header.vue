@@ -16,7 +16,7 @@
             <a href="#">About us</a>
           </li>
         </ul>
-        <button class="md:hidden lg:hidden sm:border-2 sm:border-blue-400 sm:rounded-lg sm:relative sm:right-9">
+        <button class="border-2 border-blue-400 rounded-lg relative right-9 md:hidden lg:hidden ">
           <img src="../img/radix-icons_hamburger-menu.svg" alt="" class="p-2 md:hidden lg:hidden">
         </button>
       </div>
