@@ -16,5 +16,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style>
-
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  min-width: 320px;
+}
 </style>
