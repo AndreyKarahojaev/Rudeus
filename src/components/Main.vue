@@ -1,24 +1,40 @@
 <template>
-  <main class="flex pt-24 sm:pt-36">
-    <section>
-      <h1>Manage Schedule and Task Easy</h1>
-      <p>Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
-      <a href="#">Download App</a>
-      <div>
-        <div>
-          <img src="#" alt="icon">
-          <h2>Set a better deadline tasks</h2>
-          <p>You can make your duty deadlines better and more orderly</p>
+  <main class="flex flex-col sm:pt-36">
+    <section class="flex flex-col mb-12 md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap relative">
+      <div class="flex flex-col items-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap md:justify-between lg:justify-between w-full">
+        <div class="flex flex-col items-center justify-between text-center md:max-w-xs lg:max-w-lg">
+          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-0 lg:mb-0">Manage Schedule and Task Easy</h1>
+          <p class="text-sm leading-md text-gray-400">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
+          <div class="mt-10 ml-8 mr-auto">
+            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400">Download App</a>
+          </div>
         </div>
-        <div>
-          <img src="#" alt="icon">
-          <h2>Manage the tasks so easily</h2>
-          <p>You can manage the deadlines and the schedule becomes easy</p>
+        <div class="flex mt-10 mb-10 img__max-width md:my-0 lg:my-0">
+          <img src="../img/hero-image.png" alt="" class="hidden md:inline-block lg:inline-block">
+          <img src="../img/hero-image-mobile.png" alt="" class="md:hidden lg:hidden mt-10 mb-10 md:my-0 lg:my-0">
         </div>
-        <div>
-          <img src="#" alt="icon">
-          <h2>Wouldn’t miss notifications</h2>
-          <p>Of course you will always get the tasks and schedule notifications</p>
+      </div>
+      <div class="flex flex-col w-full md:flex-row lg:flex-row mt-14">
+        <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
+          <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
+            <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+          </div>
+          <h2 class="my-8 text-base leading-md">Set a better deadline tasks</h2>
+          <p class="text-sm leading-md text-gray-400">You can make your duty deadlines better and more orderly</p>
+        </div>
+        <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
+          <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
+            <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+          </div>
+          <h2 class="my-8 text-base leading-md">Manage the tasks so easily</h2>
+          <p class="text-sm leading-md text-gray-400">You can manage the deadlines and the schedule becomes easy</p>
+        </div>
+        <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
+          <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
+            <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+          </div>
+          <h2 class="my-8 text-base leading-md">Wouldn’t miss notifications</h2>
+          <p class="text-sm leading-md text-gray-400">Of course you will always get the tasks and schedule notifications</p>
         </div>
       </div>
     </section>
@@ -63,5 +79,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+ @media (min-width: 770px) { 
+  .img__max-width {
+  margin-right: 0;
+  margin-left: auto;  
+  max-width: 500px;
+}
+}
+.krug {
+  background-image: url(../img/krug.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
 
 </style>
