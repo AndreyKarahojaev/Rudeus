@@ -44,18 +44,13 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-@media (min-width: 220px) and (max-width: 440px) { 
-  .footer__block-indent--text {
-  width: 300px;
-}
- }
+<style lang="sass" scoped>
 
- @media (min-width: 441px) and (max-width: 637px) { 
-  .footer__block-indent {
-  width: 118px;
-}
- }
+.footer__block-indent--text 
+  width: 300px
+
+@media (min-width: 440px)
+    width: 100%
 
 .block-indent__heading {
   padding-bottom: 58px;
