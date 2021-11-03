@@ -1,15 +1,15 @@
 <template>
-  <main class="flex flex-col sm:pt-36">
+  <main class="main_step-up pt-36 lg:pt-0">
     <section class="flex flex-col mb-12 md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap relative">
       <div class="flex flex-col items-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap md:justify-between lg:justify-between w-full">
         <div class="flex flex-col items-center justify-between text-center md:max-w-xs lg:max-w-lg">
-          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-0 lg:mb-0">Manage Schedule and Task Easy</h1>
+          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1">Manage Schedule and Task Easy</h1>
           <p class="text-sm leading-md text-gray-400">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
-          <div class="mt-10 ml-8 mr-auto">
+          <div class="mt-10 ml-8 mr-auto z-10">
             <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400">Download App</a>
           </div>
         </div>
-        <div class="flex mt-10 mb-10 img__max-width md:my-0 lg:my-0">
+        <div class="flex mt-10 mb-10 img__max-width lg:my-0">
           <img src="../img/hero-image.png" alt="" class="hidden md:inline-block lg:inline-block">
           <img src="../img/hero-image-mobile.png" alt="" class="md:hidden lg:hidden mt-10 mb-10 md:my-0 lg:my-0">
         </div>
@@ -81,17 +81,21 @@ export default {
 
  @media (min-width: 770px) { 
   .img__max-width {
-  margin-right: 0;
-  margin-left: auto;  
-  max-width: 500px;
+    margin-right: 0;
+    margin-left: auto;  
+    max-width: 500px;
+  }
 }
+ @media (min-width: 700px) and (max-width: 768px) { 
+  .img__max-width {
+    margin-top: 30px;
+  }
 }
-.krug {
-  background-image: url(../img/krug.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+
+ @media (min-width: 638px) and (max-width: 1010px) { 
+  .main_step-up {
+    padding-top: 100px;
+  }
 }
 
 </style>
