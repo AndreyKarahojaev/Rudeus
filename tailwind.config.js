@@ -10,8 +10,6 @@ module.exports = {
         }
       },
       spacing: {
-        
-        
         '300' : '300px'
       } 
     },
