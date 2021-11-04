@@ -13,11 +13,14 @@ module.exports = {
           'circle': '#EEF4FF',
         },
       },
-      spacing: {
-        '108': '118px',
-        '58' : '58px',
-        '300' : '300px'
-      } 
+      zIndex: {
+          '-10': '-10',
+        }
+      // spacing: {
+      //   '108': '118px',
+      //   '58' : '58px',
+      //   '300' : '300px'
+      // } 
     },
     screens: {
       'sm': {'min': '220px', 'max': '440px'},
@@ -39,9 +42,14 @@ module.exports = {
       'xs': '21px',
       'sm': '27px',
       'md': '36px',
+      'slg': '40px',
       'lg': '65px',
       'xl': '85px'
-      }, 
+      },
+    backgroundImage: {
+      'bg-dowland': "url('img/bg-dowland.svg')",
+      'bg-dowland--mobile': "url('img/bg-dowland--mobile.svg')"
+      } 
   },
   variants: {
     extend: {},
