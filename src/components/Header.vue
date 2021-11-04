@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between absolute top-7 h-10 w-full">
+  <header class="flex justify-between absolute top-7 h-10 w-full z-10">
     <div class="flex justify-between w-full">
       <div class="flex items-center justify-between sm:w-full md:top-8">
         <a href="#" class="flex items-center justify-around">
