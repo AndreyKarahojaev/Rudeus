@@ -50,12 +50,7 @@ export default {
   width: 300px
 
 @media (min-width: 440px)
+  .block-indent__heading 
+    padding-bottom: 58px
     width: 100%
-
-.block-indent__heading {
-  padding-bottom: 58px;
-}
-
-
-
 </style>
