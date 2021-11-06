@@ -29,6 +29,10 @@ module.exports = {
         // => @media (max-width: 618px) { ... }
       'lg': {'min': '638px'},
         // => @media (max-width: 618px) { ... }
+      'xl': {'min': '639px', 'max': '1010px'},
+        // => @media (max-width: 1010px) { ... }
+      'xxl': {'min': '1010px', 'max': '1440px'},
+        // => @media (max-width: 1440px) { ... }
       },
     fontSize: {
       'xs': '14px',
@@ -45,11 +49,7 @@ module.exports = {
       'slg': '40px',
       'lg': '65px',
       'xl': '85px'
-      },
-    backgroundImage: {
-      'bg-dowland': "url('img/bg-dowland.svg')",
-      'bg-dowland--mobile': "url('img/bg-dowland--mobile.svg')"
-      } 
+      }
   },
   variants: {
     extend: {},
