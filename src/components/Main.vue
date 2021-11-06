@@ -38,6 +38,7 @@
         </div>
       </div>
     </section>
+
     <section>
       <div>
         <img src="#" alt="icon">
@@ -55,17 +56,27 @@
         <a href="#">About App</a>
       </div>
     </section>
-    <section>
-      <img src="#" alt="">
-      <h3>What do they think</h3>
-      <div>
-        <img src="#" alt="avatar">
-        <h3>Samantha Sench</h3>
-        <span>Student at University</span>
-        <p>“ Hi, it’s Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “</p>
+
+    <section class="flex items-center justify-around flex-wrap mb-24 lg:mb-40">
+      <img src="../img/think-comment.jpg" alt="" class="hidden lg:block w-1/2">
+      <div class="lg:w-1/2">
+        <h3 class="text-black leading-xmd text-md text-center mb-10 lg:mb-12 w-full">What do they think</h3>
+        
+        <div class="flex flex-coll mx-8">
+          <div class="flex flex-row flex-wrap items-center justify-center">
+            <img src="../img/avatar.jpg" alt="avatar" class="rounded-full mr-8">
+            <div>
+              <h3 class="mb-5 font-semibold leading-sm text-sm text-black">Samantha Sench</h3>
+              <span class="text-gray-400 leading-xs text-xs">Student at University</span>
+            </div>
+            <p class="w-full my-12">“ Hi, it’s Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “</p>
+          </div>
+        </div>
+        <!-- стрелки будут добавлены в ходе добавления JS(я предпологаю шаблонную slick карусель по средством - JQwery ) -->
+        <a href="#"></a>
+        <a href="#"></a>
       </div>
-      <a href="#"></a>
-      <a href="#"></a>
+
     </section>
   </main>
 </template>
