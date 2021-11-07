@@ -124,10 +124,11 @@ export default {
 
 .background-image {
   position: relative;
-  background-image: url('../img/bg-dowland.svg');
+  background: url('../img/bg-dowland.svg') center/cover no-repeat #2D76F9;
+  /* background-image: url('../img/bg-dowland.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   border-radius: 20px;
 }
 
