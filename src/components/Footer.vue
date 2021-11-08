@@ -2,7 +2,7 @@
 <footer class="flex flex-wrap justify-around md:pr-10 text-center pb-14">
   <div class="flex flex-col sm:pb-6 text-center relative special-transfer">
     <a href="#" class="flex items-center sm:pb-4 md:pb-12 pb-58 logo-text text-base leading-sm lg:leading-md lg:text-md block-indent xl:relative xl:left-24 transform duration-500 hover:scale-95">
-      <img src="../img/logo-footer.svg" alt="" class="logo-img ml-5 mr-1 xl:absolute xl:-left-32">Remind<span class="text-blue-400">me</span>
+      <img src="../img/logo-footer.svg" alt="" class="logo-img ml-5 mr-1 base:absolute base:-left-32">Remind<span class="text-blue-400">me</span>
     </a>
     <p class="max-w-sm text-left md:max-w-xs footer__block-indent--text sm:pl-5 text-sm leading-md text-gray-400">Task deadlines and scheduling applications with various benefits and advantages</p>
   </div>

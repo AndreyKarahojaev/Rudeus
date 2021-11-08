@@ -9,7 +9,7 @@
             <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400 font-medium hover:bg-blue-500 hover:duration-200 ">Download App</a>
           </div>
         </div>
-        <div class="flex mt-10 mb-10 img__max-width lg:my-0">
+        <div class="flex mt-10 img-alignment lg:my-0">
           <img src="../img/hero-image.png" alt="" class="hidden md:inline-block lg:inline-block">
           <img src="../img/hero-image-mobile.png" alt="" class="md:hidden lg:hidden mt-10 mb-10 md:my-0 lg:my-0">
         </div>
@@ -39,21 +39,36 @@
       </div>
     </section>
 
-    <!-- <section>
-      <div>
-        <img src="#" alt="icon">
-        <h3>Set up task and schedule with a best features</h3>
-        <p>The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
+    <section class="flex justify-center items-center flex-coll w-full flex-wrap mb-12">
+      <div class="flex flex-wrap justify-between items-center md:mb-36 lg:mb-36 lg:w-full">
+        <div class="img__max-width">
+          <img src="../img/img1.jpg" alt="icon" class="w-full mx-auto md:hidden lg:hidden">
+          <img src="../img/image-dectop1.jpg" alt="icon" class="hidden md:block lg:block">
+        </div>
+        <div class="text-center max-w-xs md:max-w-md lg:max-w-md mx-auto">
+          <h3 class="text-base leading-slg text-black mt-12 mb-6 md:mb-12 lg:mb-12">Set up task and schedule with a best features</h3>
+          <p class="mb-12 text-gray-400 text-sm leading-md">The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
+        </div>
       </div>
-      <div>
-        <img src="#" alt="icon">
-        <h3>Get the highest priority application notification</h3>
-        <p>The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
+      <div class="flex flex-wrap justify-between items-center md:mb-36 lg:mb-36 md:flex-row-reverse lg:flex-row-reverse lg:w-full">
+        <div class="img__max-width">
+          <img src="../img/img2.jpg" alt="icon" class="w-full mx-auto md:hidden lg:hidden">
+          <img src="../img/image-dectop2.jpg" alt="icon" class="hidden md:block lg:block">
+        </div>
+        <div class="text-center max-w-xs md:max-w-md lg:max-w-md mx-auto">
+          <h3 class="text-base leading-slg text-black mt-12 mb-6 md:mb-12 lg:mb-12">Get the highest priority application notification</h3>
+          <p class="mb-12 text-gray-400 text-sm leading-md">The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now!</p>
+        </div>
       </div>
-      <div>
-        <h3>Download an app now and the various benefits you will get immediately</h3>
-        <a href="#">Download App</a>
-        <a href="#">About App</a>
+
+      <div class="flex background-image items-center justify-center w-full max-w-xl lg:max-w-2xl xl:max-w-5xl xxl:max-w-7xl mx-6 h-96 lg:h-full">
+        <div class="flex-wrap flex-col justify-around">
+          <h3 class="text-center flex items-center justify-center w-full mb-5 lg:mb-20 text-white mt-12 leading-md text-base font-semibold">Download an app now and the various benefits you will get immediately</h3>
+          <div class="flex items-center flex-col md:flex-row lg:flex-row md:flex-nowrap lg:justify-around">
+            <a href="#" class="btn-dowland border-2 border-white  text-white text-center flex items-center justify-center my-3">About App</a>
+            <a href="#" class="btn-dowland border-2 border-white bg-white text-blue-400 text-center flex items-center justify-center my-3">Download App</a>
+          </div>
+        </div>
       </div>
     </section> -->
 
@@ -91,7 +106,7 @@ export default {
 <style scoped>
 
  @media (min-width: 770px) { 
-  .img__max-width {
+  .img-alignment {
     margin-right: 0;
     margin-left: auto;  
     max-width: 500px;
@@ -107,6 +122,29 @@ export default {
   .main_step-up {
     padding-top: 100px;
   }
+}
+
+ @media (min-width: 950px) and (max-width: 1024px) { 
+  .img__max-width {
+    max-width: 658px;
+  }
+}
+
+
+.background-image {
+  position: relative;
+  background: url('../img/bg-dowland.svg') center/cover no-repeat #2D76F9;
+  /* background-image: url('../img/bg-dowland.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  border-radius: 20px;
+}
+
+.btn-dowland {
+  width: 250px;
+  height: 75px;
+  border-radius: 45px;
 }
 
 </style>
