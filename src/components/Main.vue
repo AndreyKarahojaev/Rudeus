@@ -63,14 +63,14 @@
 
       <div class="flex background-image items-center justify-center w-full max-w-xl lg:max-w-2xl xl:max-w-5xl xxl:max-w-7xl mx-6 h-96 lg:h-full">
         <div class="flex-wrap flex-col justify-around">
-          <h3 class="text-center flex items-center justify-center w-full mb-5 lg:mb-20 text-white mt-12 leading-md text-base font-semibold">Download an app now and the various benefits you will get immediately</h3>
+          <h3 class="text-center flex items-center justify-center w-full mb-5 lg:mb-20 text-white mt-12 leading-md text-base font-semibold px-3">Download an app now and the various benefits you will get immediately</h3>
           <div class="flex items-center flex-col md:flex-row lg:flex-row md:flex-nowrap lg:justify-around">
             <a href="#" class="btn-dowland border-2 border-white  text-white text-center flex items-center justify-center my-3">About App</a>
             <a href="#" class="btn-dowland border-2 border-white bg-white text-blue-400 text-center flex items-center justify-center my-3">Download App</a>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="flex items-center justify-around flex-wrap mb-24 lg:mb-40">
       <img src="../img/think-comment.jpg" alt="" class="hidden lg:block w-1/2">
