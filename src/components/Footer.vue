@@ -85,8 +85,6 @@ export default {
     content: ""
     height: 1px
     width: 0%
-    -webkit-transition: width .3s ease-in-out
-    -moz--transition: width .3s ease-in-out
     transition: width .2s ease-in-out
 
 .link-hover-solid a:hover:after,

@@ -19,21 +19,21 @@
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
             <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Set a better deadline tasks</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Set a better deadline tasks</h2>
           <p class="text-sm leading-md text-gray-400">You can make your duty deadlines better and more orderly</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
             <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Manage the tasks so easily</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Manage the tasks so easily</h2>
           <p class="text-sm leading-md text-gray-400">You can manage the deadlines and the schedule becomes easy</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
             <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Wouldn’t miss notifications</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Wouldn’t miss notifications</h2>
           <p class="text-sm leading-md text-gray-400">Of course you will always get the tasks and schedule notifications</p>
         </div>
       </div>

@@ -20,6 +20,7 @@ export default {
   max-width: 1440px;
   width: 100%;
   min-width: 320px;
+  font-family: Poppins, sans-serif;
 }
 
 .logo-text {
@@ -27,4 +28,5 @@ export default {
   font-style: normal;
   font-weight: bold;
 }
+
 </style>
