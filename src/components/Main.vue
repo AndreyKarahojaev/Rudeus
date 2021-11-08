@@ -3,10 +3,10 @@
     <section class="flex flex-col mb-12 md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap relative">
       <div class="flex flex-col items-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap md:justify-between lg:justify-between w-full">
         <div class="flex flex-col items-center justify-between text-center md:max-w-xs lg:max-w-lg">
-          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1">Manage Schedule and Task Easy</h1>
+          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1 text-black">Manage Schedule and Task Easy</h1>
           <p class="text-sm leading-md text-gray-400">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
           <div class="mt-10 ml-8 mr-auto z-10">
-            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400">Download App</a>
+            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400 font-medium">Download App</a>
           </div>
         </div>
         <div class="flex mt-10 mb-10 img__max-width lg:my-0">
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <section>
+    <!-- <section>
       <div>
         <img src="#" alt="icon">
         <h3>Set up task and schedule with a best features</h3>
@@ -55,7 +55,7 @@
         <a href="#">Download App</a>
         <a href="#">About App</a>
       </div>
-    </section>
+    </section> -->
 
     <section class="flex items-center justify-around flex-wrap mb-24 lg:mb-40">
       <img src="../img/think-comment.jpg" alt="" class="hidden lg:block w-1/2">

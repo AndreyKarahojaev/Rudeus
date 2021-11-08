@@ -21,4 +21,10 @@ export default {
   width: 100%;
   min-width: 320px;
 }
+
+.logo-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+}
 </style>
