@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         blue: {
+          '300': '#4587FF',
           '400': '#2D76F9',
+          '500': '#1f26ff',
           'dark': '#2D00F9'
         },
         black: '#212121',
@@ -24,6 +26,8 @@ module.exports = {
       'md': {'min': '441px', 'max': '637px'},
         // => @media (max-width: 618px) { ... }
       'lg': {'min': '638px'},
+        // => @media (max-width: 618px) { ... }
+      'xl': {'min': '1024px'},
         // => @media (max-width: 618px) { ... }
       },
     fontSize: {

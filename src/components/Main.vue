@@ -6,7 +6,7 @@
           <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1 text-black">Manage Schedule and Task Easy</h1>
           <p class="text-sm leading-md text-gray-400">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
           <div class="mt-10 ml-8 mr-auto z-10">
-            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400 font-medium">Download App</a>
+            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400 font-medium hover:bg-blue-500 hover:duration-200 ">Download App</a>
           </div>
         </div>
         <div class="flex mt-10 mb-10 img__max-width lg:my-0">
@@ -17,21 +17,21 @@
       <div class="flex flex-col w-full md:flex-row lg:flex-row mt-14">
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
           <h2 class="my-8 text-base leading-md">Set a better deadline tasks</h2>
           <p class="text-sm leading-md text-gray-400">You can make your duty deadlines better and more orderly</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
           <h2 class="my-8 text-base leading-md">Manage the tasks so easily</h2>
           <p class="text-sm leading-md text-gray-400">You can manage the deadlines and the schedule becomes easy</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
           <h2 class="my-8 text-base leading-md">Wouldn’t miss notifications</h2>
           <p class="text-sm leading-md text-gray-400">Of course you will always get the tasks and schedule notifications</p>
