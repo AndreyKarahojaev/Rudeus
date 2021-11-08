@@ -76,7 +76,6 @@ export default {
   .special-transfer
     margin-right: 20px
 
-
 .list-disc::marker 
   color: #2170FF
 
@@ -93,6 +92,5 @@ export default {
 .link-hover-solid a:hover:after,
 .link-hover-solid a:focus:after 
     width: 100%
-
-
+    
 </style>
