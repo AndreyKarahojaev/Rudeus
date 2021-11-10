@@ -20,5 +20,13 @@ export default {
   max-width: 1440px;
   width: 100%;
   min-width: 320px;
+  font-family: Poppins, sans-serif;
 }
+
+.logo-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+}
+
 </style>

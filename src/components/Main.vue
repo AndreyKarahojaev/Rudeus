@@ -3,10 +3,10 @@
     <section class="flex flex-col mb-12 md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap relative">
       <div class="flex flex-col items-center md:flex-row lg:flex-row md:flex-wrap lg:flex-wrap md:justify-between lg:justify-between w-full">
         <div class="flex flex-col items-center justify-between text-center md:max-w-xs lg:max-w-lg">
-          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1">Manage Schedule and Task Easy</h1>
+          <h1 class="mb-16 font-semibold text-lg leading-xl md:mb-1 lg:mb-1 text-black">Manage Schedule and Task Easy</h1>
           <p class="text-sm leading-md text-gray-400">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
           <div class="mt-10 ml-8 mr-auto z-10">
-            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400">Download App</a>
+            <a href="#" class="text-sm leading-sm justify-between border-2 rounded-full py-6 px-14 text-white border-blue-400 bg-blue-400 font-medium hover:bg-blue-500 hover:duration-200 ">Download App</a>
           </div>
         </div>
         <div class="flex mt-10 img-alignment lg:my-0">
@@ -17,23 +17,23 @@
       <div class="flex flex-col w-full md:flex-row lg:flex-row mt-14">
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/kalendar.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Set a better deadline tasks</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Set a better deadline tasks</h2>
           <p class="text-sm leading-md text-gray-400">You can make your duty deadlines better and more orderly</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/tasks.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Manage the tasks so easily</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Manage the tasks so easily</h2>
           <p class="text-sm leading-md text-gray-400">You can manage the deadlines and the schedule becomes easy</p>
         </div>
         <div class="flex flex-col items-center mb-12 text-center lg:w-2/6 md:w-2/6">
           <div class="mb-4 bg-gray-circle rounded-full h-24 w-24">
-            <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4">
+            <img src="../img/notification.svg" alt="icon" class="w-14 h-14 mx-auto mt-4 cursor-pointer transform hover:scale-110">
           </div>
-          <h2 class="my-8 text-base leading-md">Wouldn’t miss notifications</h2>
+          <h2 class="my-8 text-base leading-md font-semibold">Wouldn’t miss notifications</h2>
           <p class="text-sm leading-md text-gray-400">Of course you will always get the tasks and schedule notifications</p>
         </div>
       </div>
@@ -63,7 +63,7 @@
 
       <div class="flex background-image items-center justify-center w-full max-w-xl lg:max-w-2xl xl:max-w-5xl xxl:max-w-7xl mx-6 h-96 lg:h-full">
         <div class="flex-wrap flex-col justify-around">
-          <h3 class="text-center flex items-center justify-center w-full mb-5 lg:mb-20 text-white mt-12 leading-md text-base font-semibold">Download an app now and the various benefits you will get immediately</h3>
+          <h3 class="text-center flex items-center justify-center w-full mb-5 lg:mb-20 text-white mt-12 leading-md text-base font-semibold px-3">Download an app now and the various benefits you will get immediately</h3>
           <div class="flex items-center flex-col md:flex-row lg:flex-row md:flex-nowrap lg:justify-around">
             <a href="#" class="btn-dowland border-2 border-white  text-white text-center flex items-center justify-center my-3">About App</a>
             <a href="#" class="btn-dowland border-2 border-white bg-white text-blue-400 text-center flex items-center justify-center my-3">Download App</a>
