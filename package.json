@@ -6,7 +6,6 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -22,6 +21,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^7.19.1",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "postcss": "^7.0.39",
     "sass": "^1.43.2",
@@ -29,7 +29,6 @@
     "stylus": "^0.55.0",
     "stylus-loader": "^6.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
-   
   },
   "eslintConfig": {
     "root": true,
